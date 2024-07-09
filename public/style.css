@@ -55,7 +55,7 @@ h3:hover a,
 h4:hover a,
 h5:hover a,
 h6:hover a {
-    color: #121212 !important;
+    color: pink !important;
 }
 
 h1 {
@@ -749,7 +749,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .theme_color_text {
-    color: #06389e;
+    color: pink;
 }
 
 .testimonial h3 {
@@ -1308,10 +1308,13 @@ header .main_menu .nav-item.active a.nav-link {
 
 /**---- logo ----**/
 
-.logo {
+.logo img {
     float: left;
     margin-top: 25px;
     margin-bottom: 25px;
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
 }
 
 .site_information {
@@ -1328,7 +1331,7 @@ header .main_menu .nav-item.active a.nav-link {
 
 .site_information ul + ul {
     margin-top: 5px;
-
+}
 
 .site_information ul li {
     margin-left: 0;
