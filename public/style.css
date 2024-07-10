@@ -771,9 +771,10 @@ form#commant_form div.field textarea.custom_field {
 }
 
 body#inner_page header.header {
-    background-image: url('images/slider_img.png');
-    background-size: 100% auto;
+    background-image: url('images/background.jpeg');
+    background-size: 50% auto; /* or 400px auto, or cover, or contain */
     position: relative;
+    height: 40px;
 }
 
 .blue_pattern_bg {
