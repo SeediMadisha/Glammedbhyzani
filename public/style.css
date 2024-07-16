@@ -46,7 +46,7 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    color: #111428;
+    color: pink;
 }
 
 h1:hover a,
@@ -68,7 +68,7 @@ h2 {
     font-size: 50px;
     line-height: 55px;
     margin-bottom: 20px;
-    color: #030101;
+    color: pink;
     font-weight: 700;
 }
 
@@ -405,6 +405,7 @@ button.navbar-toggler[aria-expanded="true"] .fa-bars {
 .footer_menu ul li a {
     color: #fff;
     font-weight: 300;
+    
 }
 
 .field input {
@@ -594,9 +595,10 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .main_full.inner_page {
-    background: #80909c;
+    background: pink;
     text-align: center;
     min-height: 180px;
+    max-height: 180px;
 }
 
 .main_full.inner_page h3 {
@@ -682,6 +684,8 @@ form#commant_form div.field textarea.custom_field {
     font-size: 21px;
     color: #000;
     float: left;
+    height: 150px;
+    width: 150px;
 }
 
 .time_table {
@@ -689,6 +693,7 @@ form#commant_form div.field textarea.custom_field {
     margin-top: 110px;
     min-height: 560px;
     padding: 30px;
+    text-align: center;
 }
 
 .blue_bt {
@@ -722,7 +727,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .cours_timging_bg {
-    background: url("images/cours_bg.jpg");
+    background-color: pink;
     min-height: 780px;
     width: 100%;
     margin-top: 50px;
@@ -2975,7 +2980,7 @@ h4.font_themecolor {
 }
 
 .heading_s1 h2::first-letter {
-    color: #72dd78;
+    color: pink;
     font-size: 100px;
     font-weight: 700;
 }
@@ -3007,6 +3012,7 @@ h4.font_themecolor {
     float: left;
     width: 100%;
     letter-spacing: -0.5px;
+    text-align: center;
 }
 
 .white_bg {
@@ -3453,7 +3459,12 @@ h3.price_tag {
 }
 
 .footer_logo {
-    margin-bottom: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 100%;
+    width: 200px;
+    height: 150px;
 }
 
 .footer_blog1 p {
@@ -4586,4 +4597,189 @@ form#commant_form div.field textarea.custom_field {
     margin-top: 20px;
 }
 
+.lashcare ol li{
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    display:flex;
+    margin-right: 20px;
+    margin-top: 150px;
+    margin-bottom: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+llllll
+
+  
+  .footer_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer_menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer_menu ul li a {
+    color: #FFFFFF; /* white */
+    text-decoration: none;
+    font-size: 24px; /* increased font size */
+  }
+  
+  .footer_menu ul li a:hover {
+    color: #FF69B4; /* bright pink */
+  }
+  
+  .social_links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .social_links li {
+    margin-left: 20px;
+  }
+  
+  .social_links li a {
+    font-size: 30px; /* even bigger font size */
+    color: #FFFFFF; /* white */
+  }
+  
+  .social_links li a:hover {
+    color: #FF69B4; /* bright pink */
+  }
+  
+  .cpy {
+    background-color: #FFC0CB; /* light pink */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cpy p {
+    color: #FFFFFF; /* white */
+    margin: 0;
+  }
+  
+  .cpy a {
+    color: #FF69B4; /* bright pink */
+    text-decoration: none;
+  }
+  
+  .cpy a:hover {
+    color: #FFFFFF; /* white */
+  }
+  
+  .centered{
+    text-align: center;
+  }
+
+  .full_heading_s1{
+    text-align: center;
+  }
+
+  .button {
+    background-color: #FF69B4; /* pink _/
+    color: #FFFFFF; /_ white */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    .button:hover {
+    background-color: #FFFFFF; /* white _/
+    color: #FF69B4; /_ pink */
+    }
+
+gghjkl
+
+.main {
+    background-color: #FFFFFF; /* white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    label {
+    color: #FF69B4; /* pink */
+    margin-bottom: 5px;
+    }
+    
+    input[type="date"], input[type="text"], input[type="number"], input[type="email"] {
+    background-color: #FFFFFF; /* white */
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    input[type="submit"] {
+    background-color: #FF69B4; /* pink _/
+    color: #FFFFFF; /_ white */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #FFFFFF; /* white _/
+    color: #FF69B4; /_ pink */
+    }
+    
+
+
+    njklm
+
+    .faq-container {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+      
+      .show-answer {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .show-answer:hover {
+        background-color: #3e8e41;
+      }
+      
+      .answer {
+        display: none;
+      }
+      
+      .show-answer:focus + .answer {
+        display: block;
+      }
