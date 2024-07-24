@@ -4783,3 +4783,22 @@ gghjkl
       .show-answer:focus + .answer {
         display: block;
       }
+
+      .policy ol li{
+        color: #000;
+        font-size: 25px;
+        text-align: center;
+        display:flex;
+        margin-right: 20px;
+        margin-top: 150px;
+        margin-bottom: -100px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      h4{
+        text-align: center;
+      }
+      
+      .psop{
+        text-align: center;
+      }
