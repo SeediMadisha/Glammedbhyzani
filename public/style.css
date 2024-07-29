@@ -597,8 +597,8 @@ form#commant_form div.field textarea.custom_field {
 .main_full.inner_page {
     background: pink;
     text-align: center;
-    min-height: 180px;
-    max-height: 180px;
+    min-height: fit-content;
+    max-height:fit-content;
 }
 
 .main_full.inner_page h3 {
@@ -775,8 +775,7 @@ form#commant_form div.field textarea.custom_field {
     margin-bottom: 20px;
 }
 
-body#inner_page header.header {
-    background-image: url('images/background.jpeg');
+body#inner_page header.header{
     background-size: 50% auto; /* or 400px auto, or cover, or contain */
     position: relative;
     height: 40px;
@@ -1310,6 +1309,7 @@ header .main_menu .nav-item.active a.nav-link {
 
 .header_top_section {
     min-height: auto;
+    
 }
 
 /**---- logo ----**/
@@ -4606,6 +4606,8 @@ form#commant_form div.field textarea.custom_field {
     margin-top: 150px;
     margin-bottom: -100px;
     font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    width: fit-content;
 }
 
 llllll
@@ -4802,3 +4804,6 @@ gghjkl
       .psop{
         text-align: center;
       }
+
+    
+
