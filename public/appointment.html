@@ -99,39 +99,49 @@
        </section>
        <!-- end section -->
 
-<!-- section -->
-<div id="main" class="main">
-   <form action="sms:+27769743248" method="submit" id="form">
-     <div class="form-group">
-       <label for="date">Date:</label>
+ <!-- section -->
+ <section class="layout_padding section">
+   <div class="container">
+     <div class="row">
+         <div class="col-md-12">
+            <div class="contact_section margin_top_30">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                     <div class="form_cont">
+                         <form action="sms:+27769743248" method="submit" id="form">
+                            <fieldset>
+                              <div class="field">
        <input type="date" name="date" id="date" placeholder="When would you like to book?">
-     </div>
-     <div class="form-group">
-       <label for="first-name">First Name:</label>
-       <input type="text" name="first-name" id="first-name" placeholder="First Name">
-     </div>
-     <div class="form-group">
-       <label for="last-name">Last Name:</label>
-       <input type="text" name="last-name" id="last-name" placeholder="Last Name">
-     </div>
-     <div class="form-group">
-       <label for="phone">Phone:</label>
-       <input type="number" name="phone" id="phone" placeholder="Phone">
-     </div>
-     <div class="form-group">
-       <label for="email">Email:</label>
-       <input type="email" name="email" id="email" placeholder="Email">
-     </div>
-     <div class="form-group">
-       <label for="lash-style">Lash Style:</label>
-       <input type="text" name="lash-style" id="lash-style" placeholder="What would you like to have done?">
-     </div>
-     <p>Please ensure you have your ID for verification.</p>
-     <button class="button">BOOK AN APPOINTMENT</button>
-   </form>
- </div>
- <!-- end section -->
- 
+                              </div>
+                              <div class="field">
+                                 <input type="time" name="appt - time" id="appt - time" value="13:30"  min="09:00" max="18:00" step="45" required>
+                              </div>
+                               <div class="field">
+                                  <input type="text" name="name" placeholder="Name">
+                               </div>
+                               <div class="field">
+                                  <input type="email" name="email" placeholder="Email">
+                               </div>
+                               <div class="field">
+                                  <input type="number" name="phone" placeholder="Phone">
+                               </div>
+                               <div class="field">
+                                        <input type="text" name="lash-style" id="lash-style" placeholder="What would you like to have done?">
+                               </div>
+                               <div class="field center">
+                                 <button>bookappointment</button>
+                            </div></fieldset>
+                            <p class="verification">Please ensure you have your ID for verification.</p>
+                         </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- end section -->
 
 <!--section-->
 <div class="faq-container">
@@ -176,20 +186,47 @@
             <div class="footer_link_heading">
                <div class="footer_menu margin_top_30">
                <ul>
-                  <li><a href="tel:+27 62 363 9362"></a></li>
                   <li><a href="mailto:zanis.storeza@(gmail.com) there!">zanis.storeza@gmail.com</a></li>
                   <li><a href="https://maps.app.goo.gl/bC9pnYwPKJBBhvGL8"><i class="fas fa-map-marker-alt"></i> 35 twickenham avenue auckland park</a></li>
-               </ul><ul class="social_links">
-                  <li><a href="tel"><i class="fa-solid fa-phone">+27623239362</i></a></li>
-                  <li><a href="https://www.facebook.com/profile.php?id=61560890189218&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a></li>
-                  <li><a href="https://www.instagram.com/glammedbyzani?igsh=OTBxNDdtbHJzMnhq"><i class="fa-brands fa-instagram"></i></a></li>
-                  <li><a href="https://www.tiktok.com/@glammedbyzani?_t=8nKzg7wOnob&_r=1"><i class ="fa-brands fa-tiktok"></i></a></li>
-                  <li><a href="https://wa.me/0623639362"><i class ="fa-brands fa-whatsapp"></i></a></li>
+                  <li><a href="+27 62 363 9362"><i class="fa-solid fa-phone">+27623239362</i></a></li>
                </ul>
             </div>
             </div>
          </div>
 
+         <div class="col-md-4 col-sm-12">
+            <div class="footer_link_heading">
+               <h3>Social media links</h3>
+            </div>
+            <div class="footer_menu">
+              <ul>
+               <li><a href="https://www.facebook.com/profile.php?id=61560890189218&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i> facebook</a></li>
+               <li><a href="https://www.instagram.com/glammedbyzani?igsh=OTBxNDdtbHJzMnhq"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+               <li><a href="https://www.tiktok.com/@glammedbyzani?_t=8nKzg7wOnob&_r=1"><i class ="fa-brands fa-tiktok"></i> Tiktok</a></li>
+               <li><a href="https://wa.me/0623639362"><i class ="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+              </ul>
+            </div>
+         </div>
+         
+         <div class="col-md-4 col-sm-12">
+            <div class="footer_link_heading">
+               <h3>Menu</h3>
+            </div>
+            <div class="footer_menu">
+              <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">Our Services</a></li>
+               <li><a href="coaching.html">Prices</a></li>
+               <li><a href="time.html">Lash Care</a></li>
+               <li><a href="appointment.html">Book Appointment</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+               <li><a href="policy.html">Policy</a></li>
+              </ul>
+            </div>
+         </div>
+           </div>
+         </div>
+         
       </div>
    </div>
 </footer>
