@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "glammedbyzani"
-  }
+    "default": "glammedbyzani",
+    "glammedbyzani": "glammedbyzani"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
