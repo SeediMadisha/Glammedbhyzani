@@ -4764,4 +4764,97 @@ llllll
         size: 50px;
       }
     
-    
+/* Mobile Styles for Header */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0; /* Adjust padding for mobile */
+    }
+
+    .header_top_section {
+        text-align: center; /* Center-align the header content */
+    }
+
+    .logo {
+        margin-bottom: 10px; /* Add space below the logo */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack the menu items vertically */
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px; /* Add space below the button */
+    }
+
+    .navbar-nav {
+        margin-top: 10px; /* Add space above the menu */
+    }
+
+    .nav-item {
+        margin: 5px 0; /* Space between menu items */
+    }
+
+    .nav-link {
+        font-size: 16px; /* Increase font size for better readability */
+        padding: 10px; /* Increase padding for easier tap targets */
+    }
+
+    .nav-link.color-aqua-hover:hover,
+    .nav-link.color-grey-hover:hover {
+        color: #00BFFF; /* Change hover color for better visibility */
+    }
+
+    .slider_cont_inner h3 {
+        font-size: 1.5em; /* Smaller font size for mobile */
+    }
+
+    .slider_cont_inner p {
+        font-size: 1em; /* Smaller slogan size for mobile */
+    }
+
+    .button {
+        padding: 8px 16px; /* Adjust button padding for mobile */
+    }
+}
+
+.banner_section_top {
+    position: relative; /* Position relative to contain absolutely positioned children */
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+.slider_banner {
+    position: relative; /* Position relative for the inner content */
+    text-align: center; /* Center align text */
+}
+
+.slide_cont {
+    position: absolute; /* Position absolutely to overlay on the image */
+    top: 50%; /* Position in the vertical center */
+    left: 50%; /* Position in the horizontal center */
+    transform: translate(-50%, -50%); /* Center the content */
+    color: white; /* Change text color for visibility */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for readability */
+    padding: 20px; /* Add padding around the content */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.slider_cont_inner h3 {
+    font-size: 2em; /* Adjust font size for the heading */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.slider_cont_inner p {
+    font-size: 1.2em; /* Adjust font size for the slogan */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.button {
+    padding: 10px 20px; /* Add padding for the button */
+    font-size: 1em; /* Adjust font size for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    background-color: pink; /* Button background color */
+    color: white; /* Button text color */
+}
+
