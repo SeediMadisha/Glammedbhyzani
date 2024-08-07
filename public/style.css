@@ -666,7 +666,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_cont_inner {
-
+ 
     width: 1085px;
     text-align: center;
     margin: 0 auto;
@@ -674,7 +674,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_cont_inner p {
-
+    
     color: #fff;
     font-size: 21px;
 
@@ -4792,6 +4792,7 @@ llllll
 
     .nav-item {
         margin: 5px 0; /* Space between menu items */
+        background-color: white;
     }
 
     .nav-link {
@@ -4806,6 +4807,7 @@ llllll
 
     .slider_cont_inner h3 {
         font-size: 1.5em; /* Smaller font size for mobile */
+       
     }
 
     .slider_cont_inner p {
@@ -4855,6 +4857,32 @@ llllll
     border-radius: 5px; /* Add rounded corners */
     cursor: pointer; /* Change cursor on hover */
     background-color: pink; /* Button background color */
-    color: white; /* Button text color */
+    color: black; /* Button text color */
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
 }
 
+/* Mobile styles */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav .menu-icon {
+        cursor: pointer;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hero {
+        padding: 10px;
+    }
+
+    .cta {
+        padding: 8px 15px;
+    }
+}

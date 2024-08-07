@@ -1,0 +1,113 @@
+/* General Styles for Mobile */
+body {
+    font-size: 16px; /* Base font size */
+}
+
+.header {
+    padding: 10px 0; /* Reduced padding for mobile */
+}
+
+.header .navbar {
+    padding: 0;
+}
+
+.header .navbar-nav .nav-link {
+    padding: 10px; /* Increased clickable area */
+}
+
+/* Banner Section */
+.banner_section_top .slider_banner img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Services Section */
+.section {
+    padding: 20px 10px; /* Adjust padding for mobile */
+}
+
+.cours img {
+    width: 100%; /* Responsive images in services */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Prices Section */
+.time_table {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+}
+
+.time_table ul {
+    display: flex;
+    justify-content: space-between; /* Align items */
+    padding: 10px 0; /* Space between items */
+}
+
+/* Lash Care Section */
+.lashcare ol {
+    padding-left: 20px; /* Indent ordered list */
+}
+
+/* Footer */
+.footer {
+    padding: 20px 10px; /* Adjust footer padding */
+}
+
+.footer_menu ul {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        text-align: center; /* Center header content */
+    }
+
+    .header .navbar {
+        flex-direction: column; /* Stack navbar items */
+    }
+
+    .header .navbar-nav {
+        margin-top: 10px; /* Space between items */
+    }
+
+    .banner_section_top .slider_banner {
+        height: 300px; /* Set a specific height for mobile */
+    }
+
+    .banner_section_top .slider_cont {
+        bottom: 20px; /* Position content closer to the bottom */
+    }
+
+    .section {
+        padding: 15px 5px; /* Further reduce padding */
+    }
+
+    .footer_menu {
+        text-align: center; /* Center footer links */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Smaller font size for very small screens */
+    }
+
+    .header .navbar-toggler {
+        padding: 10px; /* Increase padding for the menu button */
+    }
+
+    .time_table ul {
+        flex-direction: column; /* Stack prices vertically */
+        align-items: flex-start; /* Align items to start */
+    }
+
+    .time_table ul li {
+        margin-bottom: 5px; /* Space between price items */
+    }
+
+    .lashcare {
+        font-size: 14px; /* Smaller text for lash care section */
+    }
+}
