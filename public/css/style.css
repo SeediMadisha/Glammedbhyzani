@@ -666,7 +666,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_cont_inner {
- 
+
     width: 1085px;
     text-align: center;
     margin: 0 auto;
@@ -675,7 +675,7 @@ form#commant_form div.field textarea.custom_field {
 
 .slider_cont_inner p {
     
-    color: #fff;
+    color: black;
     font-size: 21px;
 
 }
@@ -699,8 +699,8 @@ form#commant_form div.field textarea.custom_field {
 .blue_bt {
     width: 265px;
     height: 65px;
-    background: #0e24cb;
-    color: #fff;
+    background: #FF69B4;
+    color:black;
     text-align: center;
     line-height: 65px;
     font-size: 20px;
@@ -708,12 +708,14 @@ form#commant_form div.field textarea.custom_field {
     margin: 45px auto 0;
     display: flex;
     justify-content: center;
+    border: none;
+    border-radius: 5px;
 }
 
 .blue_bt:hover,
 .blue_bt:focus {
-   background: #111;
-   color: #fff;
+   background: white;
+   color: black;
    transition: ease all 0.5s;
 }
 
@@ -1445,9 +1447,14 @@ header .main_menu .nav-item.active a.nav-link {
 /*-------------------------------------------------------------------
     4.section
 -------------------------------------------------------------------*/
+.backgroundpic{
+    height: 100vh;
+}
 
 .img-responsive {
     max-width: 100%;
+    height: 400px;
+
 }
 
 .padding_bottom_0 {
@@ -4610,6 +4617,12 @@ form#commant_form div.field textarea.custom_field {
     width: fit-content;
 }
 
+.lashcare{
+    background-color: rgba(255, 255, 255, .85);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 llllll
 
   
@@ -4674,24 +4687,11 @@ llllll
     color: #FFFFFF; /* white */
   }
   
-  .centered{
-    text-align: center;
-  }
 
   .full_heading_s1{
     text-align: center;
   }
 
-  .button {
-    background-color: #FF69B4; /* pink _/
-    color: #FFFFFF; /_ white */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    }
-    
     .button:hover {
     background-color: #FFFFFF; /* white _/
     color: #FF69B4; /_ pink */
@@ -4764,119 +4764,6 @@ llllll
         size: 50px;
       }
     
-/* Mobile Styles for Header */
-@media (max-width: 768px) {
-    .header {
-        padding: 15px 0; /* Adjust padding for mobile */
-    }
-
-    .header_top_section {
-        text-align: center; /* Center-align the header content */
-    }
-
-    .logo {
-        margin-bottom: 10px; /* Add space below the logo */
-    }
-
-    .navbar {
-        flex-direction: column; /* Stack the menu items vertically */
-    }
-
-    .navbar-toggler {
-        margin-bottom: 10px; /* Add space below the button */
-    }
-
-    .navbar-nav {
-        margin-top: 10px; /* Add space above the menu */
-    }
-
-    .nav-item {
-        margin: 5px 0; /* Space between menu items */
-        background-color: white;
-    }
-
-    .nav-link {
-        font-size: 16px; /* Increase font size for better readability */
-        padding: 10px; /* Increase padding for easier tap targets */
-    }
-
-    .nav-link.color-aqua-hover:hover,
-    .nav-link.color-grey-hover:hover {
-        color: #00BFFF; /* Change hover color for better visibility */
-    }
-
-    .slider_cont_inner h3 {
-        font-size: 1.5em; /* Smaller font size for mobile */
-       
-    }
-
-    .slider_cont_inner p {
-        font-size: 1em; /* Smaller slogan size for mobile */
-    }
-
-    .button {
-        padding: 8px 16px; /* Adjust button padding for mobile */
-    }
-}
-
-.banner_section_top {
-    position: relative; /* Position relative to contain absolutely positioned children */
-    overflow: hidden; /* Prevent overflow of content */
-}
-
-.slider_banner {
-    position: relative; /* Position relative for the inner content */
-    text-align: center; /* Center align text */
-}
-
-.slide_cont {
-    position: absolute; /* Position absolutely to overlay on the image */
-    top: 50%; /* Position in the vertical center */
-    left: 50%; /* Position in the horizontal center */
-    transform: translate(-50%, -50%); /* Center the content */
-    color: white; /* Change text color for visibility */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for readability */
-    padding: 20px; /* Add padding around the content */
-    border-radius: 10px; /* Optional: Add rounded corners */
-}
-
-.slider_cont_inner h3 {
-    font-size: 2em; /* Adjust font size for the heading */
-    margin: 10px 0; /* Add margin for spacing */
-}
-
-.slider_cont_inner p {
-    font-size: 1.2em; /* Adjust font size for the slogan */
-    margin: 10px 0; /* Add margin for spacing */
-}
-
-.button {
-    padding: 10px 20px; /* Add padding for the button */
-    font-size: 1em; /* Adjust font size for the button */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Add rounded corners */
-    cursor: pointer; /* Change cursor on hover */
-    background-color: pink; /* Button background color */
-    color: black; /* Button text color */
-   position: absolute;
-   left: 50%;
-   transform: translateX(-50%);
-}
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-    }
-
-    nav .menu-icon {
-        cursor: pointer;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
 
     .hero {
         padding: 10px;
@@ -4885,4 +4772,4 @@ llllll
     .cta {
         padding: 8px 15px;
     }
-}
+
