@@ -1347,3 +1347,12 @@ button.navbar-toggler span:nth-child(1) {
 }
 
 }
+
+@media (max-width: 768px) {
+    .logo{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+}
+
