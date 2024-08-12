@@ -670,14 +670,13 @@ form#commant_form div.field textarea.custom_field {
     width: 1085px;
     text-align: center;
     margin: 0 auto;
-
 }
 
 .slider_cont_inner p {
     
-    color: black;
-    font-size: 21px;
-
+    color: rgb(213, 165, 42);
+    font-size: 25px;
+font-weight: bold;
 }
 
 .time_table ul li {
@@ -1186,13 +1185,13 @@ a {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
-    color: #fff;
+    color: black;
     letter-spacing: 0px;
     transition: ease all 0.5s;
 }
 
 header .main_menu .nav-item.active a.nav-link {
-    color: #fff !important;
+    color: black !important;
 }
 
 .dropdown-toggle::after {
@@ -1449,6 +1448,7 @@ header .main_menu .nav-item.active a.nav-link {
 -------------------------------------------------------------------*/
 .backgroundpic{
     height: 100vh;
+    object-fit: cover;
 }
 
 .img-responsive {
