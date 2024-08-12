@@ -136,8 +136,66 @@ button.navbar-toggler span:nth-child(1) {
 }
 
 @media (max-width: 528px) {
+    
     .topbar-section {
         padding: 0.6rem 1rem;
+    }
+
+    .slider_cont_inner {
+        width: 100%;
+    }
+
+    .slider_cont_inner h3 {
+        font-size: 24px;
+        text-align:center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .sj{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: 4px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .float-right{
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+
+    .lashcare{
+        padding-top: 0px;
+        padding-bottom: 100px;
+        background-color: rgba(255, 255, 255, .85);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 2px solid white;
+    }
+
+    .navbar-inverse .navbar-nav .nav-link, .navbar-nav .nav-link {
+        color: white;
+
+    }
+    
+    header .main_menu .nav-item.active a.nav-link {
+        color: white !important;
+    }
+
+    .navbar-toggleable-md{
+        border: 2px solid red;
+        height: 8vh;
+        background-color: #222222;
+        width: 100%;
     }
 }
 
@@ -1347,12 +1405,3 @@ button.navbar-toggler span:nth-child(1) {
 }
 
 }
-
-@media (max-width: 768px) {
-    .logo{
-        visibility: hidden;
-        height: 0;
-        width: 0;
-    }
-}
-
