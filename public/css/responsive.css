@@ -180,22 +180,25 @@ button.navbar-toggler span:nth-child(1) {
         margin-top: 50px;
         margin-bottom: 50px;
         border: 2px solid white;
+        text-align: left;
     }
 
     .navbar-inverse .navbar-nav .nav-link, .navbar-nav .nav-link {
         color: white;
-
+        background-color: #222222;
     }
     
     header .main_menu .nav-item.active a.nav-link {
         color: white !important;
+        background-color: #222222;
     }
 
     .navbar-toggleable-md{
-        border: 2px solid red;
         height: 8vh;
         background-color: #222222;
         width: 100%;
+        padding: 0px;
+        padding-bottom: 20px;
     }
 }
 
