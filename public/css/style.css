@@ -1191,7 +1191,7 @@ a {
 }
 
 header .main_menu .nav-item.active a.nav-link {
-    color: black !important;
+    color: black;
 }
 
 .dropdown-toggle::after {
