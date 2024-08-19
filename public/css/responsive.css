@@ -186,6 +186,8 @@ button.navbar-toggler span:nth-child(1) {
     .navbar-inverse .navbar-nav .nav-link, .navbar-nav .nav-link {
         color: white;
         background-color: #222222;
+        width: 100%;
+       
     }
     
     header .main_menu .nav-item.active a.nav-link {
@@ -193,13 +195,31 @@ button.navbar-toggler span:nth-child(1) {
         background-color: #222222;
     }
 
+    .navbar-toggler{
+        display: flex;
+    }
+
     .navbar-toggleable-md{
-        height: 8vh;
+        height: 9vh;
         background-color: #222222;
         width: 100%;
         padding: 0px;
         padding-bottom: 20px;
+        margin-top: 20px;
     }
+
+    .navbar {
+        flex-direction: column;
+        align-items: end;
+        position: fixed;
+        width: 100%;
+    }
+
+
+    .fa{
+        margin-left: 100px;
+    }
+
 }
 
 @media (min-width: 992px) {
