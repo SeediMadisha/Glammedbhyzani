@@ -33,6 +33,29 @@ body {
 	line-height: 1;
 }
 
+.payment-options {
+    margin-bottom: 20px;
+  }
+  
+  .payment-options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #pay-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #pay-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+
 .faq-container table {
 	width: 100%;
 	border-collapse: collapse;
