@@ -398,4 +398,44 @@
 						$main._show(location.hash.substr(1), true);
 					});
 
+					const paymentForm = document.getElementById('payment-form');
+  const payBtn = document.getElementById('pay-btn');
+  
+  payBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const selectedMethod = document.querySelector('input[name="payment-method"]:checked').value;
+    
+    switch (selectedMethod) {
+      case 'eft':
+        // Handle EFT payment
+        break;
+      case 'paypal':
+        // Handle PayPal payment
+        break;
+      case 'applepay':
+        // Handle Apple Pay payment
+        break;
+      case 'stripe':
+        // Handle Stripe payment
+        break;
+      case 'yoco':
+        // Handle Yoco payment
+        break;
+      default:
+        console.error('Invalid payment method selected');
+    }
+  });
+  
+  // Show/hide payment method specific forms based on selection
+  paymentForm.addEventListener('change', (e) => {
+    const selectedMethod = document.querySelector('input[name="payment-method"]:checked').value;
+    const methodForms = document.querySelectorAll('#eft-form, #paypal-form, #applepay-form, #stripe-form, #yoco-form');
+    
+    methodForms.forEach((form) => {
+      form.style.display = 'none';
+    });
+    
+    document.getElementById(`${selectedMethod}-form`).style.display = 'block';
+  });
+
 })(jQuery);
