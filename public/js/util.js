@@ -584,4 +584,13 @@
 
 	};
 
+	function toggleAnswer(btn) {
+		var answer = btn.nextElementSibling;
+		if (answer.style.display === "block") {
+		  answer.style.display = "none";
+		} else {
+		  answer.style.display = "block";
+		}
+	  }
+
 })(jQuery);
