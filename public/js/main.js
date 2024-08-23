@@ -426,6 +426,27 @@
     }
   });
   
+  const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+  window.onscroll = function() {
+	if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+	  scrollTopBtn.style.display = 'block';
+	} else {
+	  scrollTopBtn.style.display = 'none';
+	}
+  };
+  
+  scrollTopBtn.onclick = function() {
+	document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+	window.scrollTo(0, 0); // For older browsers
+  };
+  
+  scrollTopBtn.onclick = function() {
+	window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  
+
   // Show/hide payment method specific forms based on selection
   paymentForm.addEventListener('change', (e) => {
     const selectedMethod = document.querySelector('input[name="payment-method"]:checked').value;

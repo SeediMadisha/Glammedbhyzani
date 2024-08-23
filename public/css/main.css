@@ -1725,4 +1725,18 @@ input, select, textarea {
 			height: 100%;
 		}
 
+		#scrollTopBtn {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			font-size: 24px;
+			cursor: pointer;
+		  }
+		  
+		  #scrollTopBtn:hover {
+			background-color: #ccc;
+			
+		  }
+		  
+
 		
